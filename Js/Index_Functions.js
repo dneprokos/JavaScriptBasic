@@ -1,9 +1,13 @@
 walk();
 
 //Function declaration. We can call it before it was defined. All declarations goes first. It's called HOISTING 
+/**
+ * Prints 'Walk' message into the console
+ */
 function walk(){
     console.log('Walk');
 }
+
 
 //Anonymous Function expression. We cannot call it before it was defined.
 let run = function() {
