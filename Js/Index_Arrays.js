@@ -111,6 +111,16 @@ const unsortedNumbers = [2, 3, 1];
 const sortedNumbers = unsortedNumbers.sort();
 console.log(sortedNumbers);
 
+//Javascript by default sort as string, so 2 > 15
+//In order to sort as numeric we need to pass a function
+function compareNumeric(a, b) {
+    return a - b;
+}
+const unsorted2 = [2, 15, 55, 3, 100];
+let sorted2 = unsorted2.sort(compareNumeric);
+console.log(sorted2);
+
+
 //Desc order
 sortedNumbers.reverse();
 

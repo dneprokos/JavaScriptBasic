@@ -123,3 +123,29 @@ now.setFullYear(1986);
 console.log(now.toISOString());
 console.log(stringDate);
 console.log(numbersDate.toTimeString());
+
+//Remove property
+let testPerson = {};
+testPerson.name = 'John Rambo';
+testPerson.age = 25;
+
+delete testPerson.age
+console.log(testPerson);
+
+
+//Count number of object properties
+let objForCount = {
+    name: 'Test',
+    age: 30,
+    isReady: true
+}
+
+var counter = 0;
+
+for (const key in objForCount) {
+    counter++;
+}
+
+console.log('Current properties count is: ', counter);
+
+
