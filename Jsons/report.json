@@ -1,0 +1,21 @@
+[
+	{
+		"description":"test description",
+		"assertions": [
+			{
+				"passed": true
+			}
+		],
+		"duration": 1526
+	},
+	{
+		"description":"test description 2",
+		"assertions": [
+			{
+                "passed": false,
+                "errorMsg": "Test error message"
+			}
+		],
+		"duration": 933
+	}
+]
