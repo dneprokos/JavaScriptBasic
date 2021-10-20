@@ -1,3 +1,5 @@
+"use strict";
+
 //Object example
 const circle = {
     radius: 1,

@@ -1,3 +1,5 @@
+"use strict";
+
 //foreach
 var foreachArr = ["Apple", "Orange", "Pear"];
 

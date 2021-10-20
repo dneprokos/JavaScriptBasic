@@ -18,11 +18,11 @@ const interestRate = 0.3;
 
 //Primitive types/Value types
 let lastName = 'Teltov'; //String Literal
-let age = 30 //Number Literal
-let isApproved = true //Boolean Literal
+let age = 30; //Number Literal
+let isApproved = true; //Boolean Literal
 let middleName; //undefined
 let $undefined = undefined; //undefined
-let selectedColor = null //null
+let selectedColor = null; //null
 
 //Get symbol of string
 console.log('First symbol of', lastName, 'is', lastName.charAt(0));
@@ -34,7 +34,7 @@ rebuildString = rebuildString[0]
                 + rebuildString[2]
                 +" " + rebuildString[11]
                 + rebuildString[14]
-                + rebuildString[16]
+                + rebuildString[16];
 console.log('Rebuild string equals to', rebuildString.toUpperCase());
 
 let str  = "This is my string";
@@ -46,8 +46,8 @@ console.log('Using slice with positive and negative values: ', str.slice(1, -1))
 
 
 //Special number values
-let infinity = 1/0 //Infinity
-let nan = 'test' * 2 //NaN, exception
+let infinity = 1/0; //Infinity
+let nan = 'test' * 2; //NaN, exception
 
 //isFinite(n) checks if value not NaN, Infinity и -Infinity,
 console.log('Is finite of 2 ', isFinite(2));
@@ -68,8 +68,8 @@ let person = {
     age: 30
 }
 
-person.firstName = "Test1" //Dot Notation
-person['firstName'] = "Test2" //Bracket notation. Most commonly used by passing variable
+person.firstName = "Test1"; //Dot Notation
+person['firstName'] = "Test2"; //Bracket notation. Most commonly used by passing variable
 
 //Arrays (Object type)
 let selectedColors = ['red', 'blue'];
@@ -90,19 +90,25 @@ function greet(name, testName){
 greet('John'); //if paramater value was not added than value will be displayed as undefined
 
 //typeOf returns datatype
-typeof undefined // "undefined"
+typeof undefined; // "undefined"
 
-typeof 0 // "number"
+typeof 0; // "number"
 
-typeof true // "boolean"
+typeof true; // "boolean"
 
-typeof "foo" // "string"
+typeof "foo"; // "string"
 
-typeof {} // "object"
+typeof {}; // "object"
 
 typeof null // "object"  (1)
 
-typeof function(){} // "function"  (2)
+typeof function() {}; // "function"  (2)
+
+
+$('ul').on('mouseover', 'li', function() {
+    $('li.active').removeClass('active');
+    $(this).addClass('active');
+});
 
 
 

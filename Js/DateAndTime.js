@@ -1,3 +1,4 @@
+"use strict";
 //New date
 let now = new Date();
 console.log('Current date: ', now);

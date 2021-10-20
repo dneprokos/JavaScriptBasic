@@ -1,3 +1,5 @@
+"use strict";
+
 //Pow as example let's calculate 2 in 3 pow
 
 function pow(x, n) {

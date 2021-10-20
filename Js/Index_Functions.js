@@ -1,3 +1,5 @@
+"use strict";
+
 walk();
 
 //Function declaration. We can call it before it was defined. All declarations goes first. It's called HOISTING 
