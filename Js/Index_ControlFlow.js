@@ -1,3 +1,5 @@
+"use strict";
+
 //If-else. The same as C#/Java
 
 

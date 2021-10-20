@@ -25,3 +25,24 @@
     align-self: center;
     margin: 20px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    flex: 50%;
+}
+
+.left {
+    width: 15%;
+}
+  
+.right {
+    width: 85%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
